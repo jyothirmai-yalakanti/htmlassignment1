@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: linear-gradient(to bottom right, hwb(185 11% 23%), #053f64);
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            padding: 5px;
+            justify-items:center;
+        }
+        .image-box {
+            widoth: 150px;
+            height: 150px;
+            background: rgb(206, 218, 176);
+            border-radius: 15px;
+            
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+        }
+        .image-box img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .image-box p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: white;
+            margin-top: 20px;
+        }
+        .image-box p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #333; /* Adds a line above the text */
+    padding-top: 10px; /* Adds space between the image and the line */
+}
+
+    </style>
+</head>
+<body>
+    <h1>IMAGE GALLERY</h1>
+    <div class="image-gallery">
+        <div class="image-box">
+            <img src="https://t3.ftcdn.net/jpg/01/02/73/98/360_F_102739845_WIADxxNJDNVjscn5UtyUYNK6QaDyYkbu.jpg">
+            <p>Mercury</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpsCkUM6_9QaMCqruNJX0y5Dhlk5oJ-7KMA&s">
+            <p>Venus</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL7WqY3mXg1gSqbnfwK1PhesWSpIcgIkwWaw&s">
+            <p>Earth</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKG-zbRtFY95XuTtzSgBB6nmGD2KuyssV1Q&s">
+            <p>Mars</p>
+        </div>
+        <div class="image-box">
+            <img src="https://news.ucr.edu/sites/default/files/2022-07/jupiter_rings_bright.jpg">
+            <p>Jupiter</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM1or0bGt8RaQ8gnSJTk8dQsjF2zTZWMtc4Q&s">
+            <p>Saturn</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvdEOTOY3NSZlgwIjAZgfMbLNGcjz-HjJ1A&s">
+            <p>Uranus</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSpSi-ZZXk3v3vqi3KPb06VX1-_KtyhlQ2A&s">
+            <p>Neptune</p>
+        </div>
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgd6SHAnNP8Ik4glEOUwki6KGPfUcq-xqQow&s">
+            <p>Pluto</p>
+        </div>
+    </div>
+</body>
+</html>
